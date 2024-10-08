@@ -1,0 +1,38 @@
+Selain document.write dan console.log, ada beberapa metode lain di JavaScript untuk menampilkan output atau melakukan pencatatan data. Berikut ini beberapa di antaranya:
+
+alert(): Menampilkan pesan kepada pengguna dalam bentuk kotak dialog.
+
+javascript
+alert("Hello, World!");  
+innerHTML: Mengubah atau menampilkan isi HTML dari elemen tertentu.
+
+javascript
+document.getElementById("myElement").innerHTML = "Hello, World!";  
+appendChild(): Menambahkan elemen baru ke dalam DOM.
+
+javascript
+const newElement = document.createElement("div");  
+newElement.textContent = "Hello, World!";  
+document.body.appendChild(newElement);  
+console.info(): Sama seperti console.log(), tetapi untuk menandakan informasi.
+
+javascript
+console.info("This is an info message.");  
+console.warn(): Untuk mencatat peringatan.
+
+javascript
+console.warn("This is a warning message.");  
+console.error(): Untuk mencatat kesalahan.
+
+javascript
+console.error("This is an error message.");  
+document.querySelector(): Mengambil elemen berdasarkan selector CSS dan menampilkan atau mengubah kontennya.
+
+javascript
+document.querySelector(".myClass").textContent = "Hello, World!";  
+debugger: Memungkinkan untuk menghentikan eksekusi kode dan masuk ke mode debugging di browser.
+
+javascript
+debugger;  
+Metode-metode di atas dapat digunakan sesuai dengan kebutuhan aplikasi atau skrip JavaScript yang sedang Anda kerjakan.
+
